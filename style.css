@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(7, 63, 46);
+  color: wheat;
+  height: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.choices {
+  display: flex;
+  margin-top: 2rem;
+  /* border: 2px solid red;*/
+  height: 15rem;
+}
+
+.choice {
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+}
+
+img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.score {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 7rem;
+  margin-top: 2rem;
+}
+
+#digit_user,
+#digit_comp {
+  font-size: 3.5rem;
+}
+
+.label {
+  font-size: 2rem;
+}
+
+#user_choice,
+#computer_choice {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.result {
+  background-color: rgb(7, 63, 46);
+  color: wheat;
+  margin-top: 2rem;
+  height: 3rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: inline-block;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.User img,
+.Computer img {
+  height: 3rem;
+  width: 3rem;
+}
